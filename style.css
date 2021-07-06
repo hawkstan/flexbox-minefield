@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.case {
+    border: 1px dotted black;
+    width: 12.5%;
+    height: 12.5%;
+    text-align: center;
+}
+.field {
+    background-color: rgb(212, 212, 212);
+    border: 10px solid rgb(151, 151, 151);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.un {
+    color: blue;
+    z-index: 0;
+    padding: 13px;
+}
+.deux {
+    color: darkgreen;
+    z-index: 0;
+    padding: 13px;
+}
+.trois {
+    color: red;
+    z-index: 0;
+    padding: 13px;
+}
+.fas {
+    padding: 13px;
+}
+.vide {
+    visibility: hidden;
+}
+.surprise {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 140, 140);
+    color: rgb(141, 140, 140);
+    z-index: 10;
+}
+.surprise:hover {
+    display: hidden;
+}
